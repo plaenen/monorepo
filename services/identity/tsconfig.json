@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "typedocOptions": {
+        "mode": "modules",
+        "out": "docs"
+    }
+}
